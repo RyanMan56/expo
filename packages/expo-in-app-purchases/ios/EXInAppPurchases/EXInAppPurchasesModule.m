@@ -238,6 +238,7 @@ UM_EXPORT_METHOD_AS(disconnectAsync,
         
         // Resolve promise
         [self resolvePromise:transaction.payment.productIdentifier value:nil];
+        [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
         break;
       }
       case SKPaymentTransactionStateRestored: {
@@ -253,6 +254,7 @@ UM_EXPORT_METHOD_AS(disconnectAsync,
         
         // Resolve promise
         [self resolvePromise:transaction.payment.productIdentifier value:nil];
+        [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
         break;
       }
       case SKPaymentTransactionStateFailed: {
