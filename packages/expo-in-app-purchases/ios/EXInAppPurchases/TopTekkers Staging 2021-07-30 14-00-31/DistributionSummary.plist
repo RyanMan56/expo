@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TopTekkers.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>D6488C44259C35DC0C13F7096798643EE0601B5F</string>
+				<key>dateExpires</key>
+				<string>04/05/2022</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>D6488C44259C35DC0C13F7096798643EE0601B5F</string>
+						<key>dateExpires</key>
+						<string>04/05/2022</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>OpenSSL.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>4R2S5EC4T3</string>
+						<key>name</key>
+						<string>The Coaching Manual Limited</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>4R2S5EC4T3.com.toptekkers.toptekkers.staging</string>
+				<key>com.apple.developer.associated-domains</key>
+				<array>
+					<string>applinks:toptekkers.page.link</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>4R2S5EC4T3</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>TopTekkers.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>0f9edbb4-04ce-4b27-84a3-d7e5d318ad77</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.toptekkers.toptekkers.staging</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>4R2S5EC4T3</string>
+				<key>name</key>
+				<string>The Coaching Manual Limited</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
