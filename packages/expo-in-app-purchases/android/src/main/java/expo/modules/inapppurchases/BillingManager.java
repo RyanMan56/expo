@@ -483,7 +483,7 @@ public class BillingManager implements PurchasesUpdatedListener {
     Bundle bundle = new Bundle();
 
     // PurchaseHistoryRecord is a subset of Purchase
-    bundle.putString("productId", purchaseRecord.getSku());
+    bundle.putString("productId", purchaseRecord.getSkus().get(0));
     bundle.putLong("purchaseTime", purchaseRecord.getPurchaseTime());
     bundle.putString("purchaseToken", purchaseRecord.getPurchaseToken());
 
