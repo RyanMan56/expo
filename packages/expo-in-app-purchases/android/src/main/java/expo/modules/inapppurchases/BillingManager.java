@@ -457,7 +457,7 @@ public class BillingManager implements PurchasesUpdatedListener {
     bundle.putString("price", skuDetails.getPrice());
     bundle.putLong("priceAmountMicros", skuDetails.getPriceAmountMicros());
     bundle.putString("priceCurrencyCode", skuDetails.getPriceCurrencyCode());
-    bundle.putString("productId", skuDetails.getSkus().get(0));
+    bundle.putString("productId", skuDetails.getSku());
     bundle.putString("title", skuDetails.getTitle());
     bundle.putInt("type", type);
     bundle.putString("subscriptionPeriod", subscriptionPeriod);
